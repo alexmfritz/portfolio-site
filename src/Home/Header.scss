@@ -16,7 +16,7 @@ header {
       }
 
       .header-title {
-        font-size: 40px;
+        font-size: 36px;
       }
     }
 
@@ -30,7 +30,7 @@ header {
       margin-right: 20px;
 
       ul {
-        font-size: 30px;
+        font-size: 26px;
         list-style: none;
         margin-bottom: 20px;
 
@@ -49,25 +49,25 @@ header {
         .nav-drop-one {
           -webkit-animation: bounce-in-top 2.3s ease-in both;
           animation: bounce-in-top 2.3s ease-in both;
-          animation-delay: 3s;
+          animation-delay: 2s;
         }
 
         .nav-drop-two {
           -webkit-animation: bounce-in-top 2.6s ease-in both;
           animation: bounce-in-top 2.6s ease-in both;
-          animation-delay: 3s;
+          animation-delay: 2s;
         }
 
         .nav-drop-three {
           -webkit-animation: bounce-in-top 3s ease-in both;
           animation: bounce-in-top 3s ease-in both;
-          animation-delay: 3s;
+          animation-delay: 2s;
         }
 
         .nav-drop-four {
           -webkit-animation: bounce-in-top 3.3s ease-in both;
           animation: bounce-in-top 3.3s ease-in both;
-          animation-delay: 3s;
+          animation-delay: 2s;
         }
       }
     }

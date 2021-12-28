@@ -4,7 +4,7 @@ import reactLogo from './images/logo192.png'
 
 export default function Header() {
   return (
-    <header className="slide-in-bottom">
+    <header>
       <nav className="header-nav flex center between">
         <section className="header-image-box flex center">
           <img className="header-react-logo" src={reactLogo}></img>
