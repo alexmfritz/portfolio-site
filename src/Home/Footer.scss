@@ -1,9 +1,10 @@
-.footer {
+footer {
   margin-top: 10px;
   bottom: 0;
   border-top: 2px solid #61DBFB;
   -webkit-animation: slide-in-top 3s linear both;
   animation: slide-in-top 3s linear both;
+  animation-delay: 2s;
 
   .footer-nav-box {
     min-height: 80px;
@@ -59,7 +60,6 @@
   }
 }
 
-
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -76,8 +76,8 @@
 
 @-webkit-keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-50vh);
-    transform: translateY(-50vh);
+    -webkit-transform: translateY(-49.5vh);
+    transform: translateY(-49.5vh);
   }
 
   100% {
@@ -88,8 +88,8 @@
 
 @keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-50vh);
-    transform: translateY(-50vh);
+    -webkit-transform: translateY(-49.5vh);
+    transform: translateY(-49.5vh);
   }
 
   100% {

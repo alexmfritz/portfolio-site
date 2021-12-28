@@ -2,7 +2,7 @@ import './Footer.scss';
 
 export default function Footer() {
   return (
-    <footer className="footer flex between center">
+    <footer className="flex between center">
       <section className="footer-nav-box">
         <ul className="footer-nav-items flex">
           <li className="puff-in-center-one"><a href="https://www.linkedin.com/in/alexmfritz/"><i class="fab fa-linkedin fa-2x"></i></a></li>
