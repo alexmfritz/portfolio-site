@@ -1,0 +1,137 @@
+.footer {
+  margin-top: 10px;
+  bottom: 0;
+  border-top: 2px solid #61DBFB;
+}
+
+.footer-nav-box {
+  min-height: 80px;
+  max-height: 80px;
+}
+
+.footer-design-box {
+  min-width: 30%;
+}
+
+h3 {
+  font-size: 22px;
+  margin-right: 20px;
+  animation: slide 10s linear infinite;
+  animation-delay: 5s;
+}
+
+h3:hover {
+  font-size: 24px;
+}
+
+.footer-nav-box > ul {
+  font-size: 20px;
+  list-style: none;
+}
+
+.footer-nav-box li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fab {
+  color: #61DBFB;
+  cursor: pointer;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-top {
+  -webkit-animation: slide-in-top 3s linear both;
+  animation: slide-in-top 3s linear both;
+}
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-50vh);
+    transform: translateY(-50vh);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-50vh);
+    transform: translateY(-50vh);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.puff-in-center-one {
+  -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation-delay: 3s;
+}
+
+.puff-in-center-two {
+  -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation-delay: 3.3s;
+}
+
+.puff-in-center-three {
+  -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation-delay: 3.6s;
+}
+
+@-webkit-keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes puff-in-center {
+  0% {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
