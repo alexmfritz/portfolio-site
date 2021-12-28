@@ -16,11 +16,11 @@
   height: auto;
   width: 80%;
   border-radius: 10px;
-  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
 }
 
 .image:hover {
-  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .scale-in-center {

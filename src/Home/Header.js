@@ -1,6 +1,6 @@
-import './Header.css';
+import './Header.scss';
 import React from 'react';
-import reactLogo from './logo192.png'
+import reactLogo from './images/logo192.png'
 
 export default function Header() {
   return (
@@ -12,13 +12,14 @@ export default function Header() {
         </section>
         <section className="header-nav-box">
           <ul className="header-nav-items flex end">
-            <li className="nav-drop-one"><a href='./About.html'>About</a></li>
-            <li className="nav-drop-two"><a href='./Pricing.html'>Pricing</a></li>
-            <li className="nav-drop-three"><a href='./Contact.html'>Contact</a></li>
-            <li className="nav-drop-four"><a href='./Portfolio.html'>Portfolio</a></li>
+            <li className="nav-drop-one">About</li>
+            <li className="nav-drop-two">Pricing</li>
+            <li className="nav-drop-three">Contact</li>
+            <li className="nav-drop-four">Portfolio</li>
           </ul>
         </section>
       </nav>
     </header>
   )
 }
+

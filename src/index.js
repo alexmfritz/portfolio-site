@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Header from './Header';
-import MainContent from './MainContent';
-import Footer from './Footer';
+import './index.scss';
+import Header from './Home/Header';
+import MainContent from './Home/MainContent';
+import Footer from './Home/Footer';
 
 const root = document.getElementById('root');
 
@@ -16,3 +16,4 @@ ReactDOM.render(
   </div>,
   root
 )
+

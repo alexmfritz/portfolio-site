@@ -1,9 +1,6 @@
-import './MainContent.css';
+import './MainContent.scss';
 import React from 'react';
-import batman from './images/batman.jpg';
-import climbOne from './images/IMG_4431.JPG';
 import climbTwo from './images/IMG_4690.jpg';
-import wedding from './images/wedding.jpg';
 
 export default function MainContent() {
   return (
