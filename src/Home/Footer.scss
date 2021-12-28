@@ -14,32 +14,32 @@ footer {
       font-size: 20px;
       list-style: none;
 
+      li {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .fab:hover {
+          color: #fb618e;
+          cursor: pointer;
+        }
+      }
+
       .puff-in-center-one {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 3s;
+        animation-delay: 4s;
       }
 
       .puff-in-center-two {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 3.3s;
+        animation-delay: 4.3s;
       }
 
       .puff-in-center-three {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 3.6s;
-      }
-
-      li {
-        margin-left: 10px;
-        margin-right: 10px;
-
-        .fab {
-          color: #61DBFB;
-          cursor: pointer;
-        }
+        animation-delay: 4.6s;
       }
     }
   }
