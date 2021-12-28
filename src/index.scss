@@ -2,26 +2,26 @@
   color: #61DBFB;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: rgba(40, 40, 40, 0.9);
   margin: 0;  
   height: 100%;
-}
 
-header {
-  height: 15%;
-}
+  header {
+    height: 15%;
+  }
 
-main {
-  height: 55%
-}
+  main {
+    height: 55%
+  }
 
-footer {
-  height: 15%;
-}
-
-html::-webkit-scrollbar {
-  display: none;
+  footer {
+    height: 15%;
+  }
 }
 
 .flex {
