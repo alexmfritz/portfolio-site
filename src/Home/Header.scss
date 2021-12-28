@@ -1,17 +1,8 @@
-* {
-  color: #61DBFB;
-}
-
 .header-nav {
   border-bottom: 2px solid #61DBFB;
 
   .header-image-box {
     min-width: 30%;
-
-    .header-image-box,
-    .header-title {
-      margin-left: 20px;
-    }
 
     .header-react-logo {
       height: 75px;
@@ -24,8 +15,14 @@
     }
   }
 
+  .header-image-box,
+  .header-title {
+    margin-left: 20px;
+  }
+
   .header-nav-box {
     min-width: 60%;
+    margin-right: 20px;
 
     ul {
       font-size: 30px;
@@ -42,14 +39,12 @@
         -webkit-animation: bounce-in-top 2.6s ease-in both;
         animation: bounce-in-top 2.6s ease-in both;
         animation-delay: 3s;
-
       }
 
       .nav-drop-three {
         -webkit-animation: bounce-in-top 3s ease-in both;
         animation: bounce-in-top 3s ease-in both;
         animation-delay: 3s;
-
       }
 
       .nav-drop-four {
