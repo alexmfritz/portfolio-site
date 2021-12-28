@@ -1,31 +1,25 @@
-.main {
+main {
   padding: 2%;
-}
 
-.p-intro {
-  font-size: 18px;
-}
+  img {
+    height: auto;
+    width: 80%;
+    border-radius: 10px;
+    filter: grayscale(80%);
+    -webkit-animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+    animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+  }
 
-.focus-in-expand-fwd {
-  -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
-  animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
-  animation-delay: 5s;
-}
+  img:hover {
+    filter: grayscale(0%);
+  }
 
-.image {
-  height: auto;
-  width: 80%;
-  border-radius: 10px;
-  filter: grayscale(80%);
-}
-
-.image:hover {
-  filter: grayscale(0%);
-}
-
-.scale-in-center {
-  -webkit-animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
-  animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+  p {
+    font-size: 18px;
+    -webkit-animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+    animation: focus-in-expand-fwd 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.5s both;
+    animation-delay: 5s;
+  }
 }
 
 @-webkit-keyframes scale-in-center {
