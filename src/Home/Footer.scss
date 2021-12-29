@@ -27,19 +27,19 @@ footer {
       .puff-in-center-one {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 2s;
+        animation-delay: 3.5s;
       }
 
       .puff-in-center-two {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 2.3s;
+        animation-delay: 4s;
       }
 
       .puff-in-center-three {
         -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
         animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        animation-delay: 2.6s;
+        animation-delay: 4.5s;
       }
     }
   }
@@ -50,8 +50,8 @@ footer {
     h3 {
       font-size: 22px;
       margin-right: 20px;
-      animation: slide 10s linear infinite;
-      animation-delay: 5s;
+      animation: slide 15s linear infinite;
+      animation-delay: 10s;
     }
 
     h3:hover {
@@ -76,8 +76,8 @@ footer {
 
 @-webkit-keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-49.5vh);
-    transform: translateY(-49.5vh);
+    -webkit-transform: translateY(-42vh);
+    transform: translateY(-42vh);
   }
 
   100% {
@@ -88,8 +88,8 @@ footer {
 
 @keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-49.5vh);
-    transform: translateY(-49.5vh);
+    -webkit-transform: translateY(-42vh);
+    transform: translateY(-42vh);
   }
 
   100% {
