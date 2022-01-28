@@ -1,7 +1,7 @@
-main {
+.intro-page {
   padding: 2%;
 
-  img {
+  .intro-hero {
     height: auto;
     width: 70%;
     border-radius: 10px;
@@ -10,7 +10,7 @@ main {
     animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
   }
 
-  img:hover {
+  .intro-hero:hover {
     filter: grayscale(0%);
   }
 

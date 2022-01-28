@@ -1,0 +1,37 @@
+.about-page {
+  padding: 2%;
+  margin-bottom: 2%;
+
+  .about-image-left {
+    height: auto;
+    width: 400px;
+    float: left;
+  }
+
+  .about-image-right {
+    height: 300px;
+    width: auto;
+    float: right;
+  }
+
+  p {
+    margin: 2%;
+    text-align: justify;
+  }
+
+  img {
+    margin: 2%;
+  }
+
+  .about-header {
+    font-size: 30px;
+  }
+
+  .about-story {
+    font-size: 20px;
+  }
+
+  .about-closer {
+    font-size: 26px;
+  }
+}
