@@ -1,0 +1,33 @@
+.pricing-page {
+  margin: 2%;
+
+  .pricing-header {
+    font-size: 34px;
+  }
+
+  .pricing-description {
+    font-size: 24px;
+  }
+
+  table {
+    font-family: 'Roboto', sans-serif;
+    border: 1px dashed;
+  }
+
+  th {
+    background: none;
+    font-size: 28px;
+    font-family: 'Yuji Syuku', serif;
+    padding: 10px 100px 10px 10px;
+    text-align: left;
+    border: 1px dashed;
+  }
+
+  td {
+    background: none;
+    text-align: left;
+    padding: 10px 100px 10px 10px;
+    font-size: 20px;
+    border: 1px dashed;
+  }
+}
