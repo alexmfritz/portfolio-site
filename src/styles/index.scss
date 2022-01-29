@@ -1,0 +1,30 @@
+@import './_reset';
+@import './_variables';
+@import './_format';
+@import './_spacing';
+
+* {
+  color: $primary-text;
+  background: $primary-background;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  @include margin(0, 0, 0, 0);
+  @include height-width(100vh);
+
+  header {
+    @include height-width(10%);
+  }
+
+  main {
+    @include height-width(55%);
+  }
+
+  footer {
+    @include height-width(15%);
+  }
+}

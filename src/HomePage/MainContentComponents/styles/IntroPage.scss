@@ -1,9 +1,12 @@
+@import '../../../styles/format';
+@import '../../../styles/spacing';
+
 .intro-page {
-  padding: 2%;
+  @include flexbox(column, "", center);
+  @include padding(2%, 2%, 2%, 2%);
 
   .intro-hero {
-    height: auto;
-    width: 70%;
+    @include height-width(auto, 70%);
     border-radius: 10px;
     filter: grayscale(80%);
     -webkit-animation: scale-in-center 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;

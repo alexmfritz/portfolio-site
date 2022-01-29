@@ -21,5 +21,9 @@ export default function MainContent(props) {
     return (
       <ContactMe />
     )
+  } else if (props.data.page === 'portfolio') {
+    return (
+      <Portfolio />
+    )
   }
 }

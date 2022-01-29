@@ -1,0 +1,39 @@
+@import '../../../styles/format';
+@import '../../../styles/spacing';
+@import '../../../styles/variables';
+
+.contact-page, 
+.contact-form {
+  @include flexbox(column, "", center);
+}
+
+.contact-header {
+  font-size: 28px;
+}
+
+input {
+  @include height-width(50px, 500px);
+  background-color: $input-background;
+}
+
+input[type="submit"] {
+  @include height-width(50px, 150px);
+  cursor: pointer;
+}
+
+textarea {
+  @include height-width(150px, 500px);
+  background-color: $input-background;
+}
+
+input, textarea {
+  @include margin(15px, 15px, 15px, 15px);
+  color: $input-text;
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+}
+
+input:hover, textarea:hover {
+  background-color: $input-hover;
+}

@@ -1,7 +1,7 @@
 export default function NavLinks(props) {
   return (
     <section className="header-nav-box">
-      <ul className="header-nav-items flex end" onClick={props.onClick}>
+      <ul className="header-nav-items" onClick={props.onClick}>
         <li className="nav-drop-one" id="home">Home</li>
         <li className="nav-drop-two" id="about">About</li>
         <li className="nav-drop-three" id="pricing">Pricing</li>

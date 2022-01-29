@@ -1,10 +1,11 @@
 import React from 'react';
 import PricingTableRow from './PricingTableRow';
 import pricingData from '../../pricing-data';
-import '../MainContentComponents/Pricing.scss';
+import './styles/Pricing.scss';
+
 
 export default function Pricing() {
-  const prices = pricingData.map(pricePackage => <PricingTableRow data={pricePackage} />)
+  const prices = pricingData.map(pricePackage => <PricingTableRow key={pricePackage.id} data={pricePackage} />)
   return (
     <section className="pricing-page">
       <h2 className="pricing-header">Need a Dev?</h2>

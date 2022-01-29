@@ -1,7 +1,12 @@
+@import '../../styles/_variables';
+@import '../../styles/_format';
+@import '../../styles/_spacing';
+
 footer {
-  margin-top: 10px;
+  @include flexbox("", space-between, center);
+  @include margin(10px, "", "", "");
   bottom: 0;
-  border-top: 2px solid #61DBFB;
+  border-top: 2px solid $primary-text;
   -webkit-animation: slide-in-top 3s linear both;
   animation: slide-in-top 3s linear both;
   animation-delay: 2s;
@@ -11,15 +16,16 @@ footer {
     max-height: 80px;
 
     ul {
+      @include flexbox("", "", "");
+      @include height-width(100%, 100%);
       font-size: 20px;
       list-style: none;
 
       li {
-        margin-left: 10px;
-        margin-right: 10px;
+        @include margin("", 10px, "", 10px);
 
         .fab:hover {
-          color: #fb618e;
+          color: $link-hover;
           cursor: pointer;
         }
       }
@@ -45,11 +51,13 @@ footer {
   }
 
   .footer-design-box {
+    @include flexbox("", flex-end, "");
     min-width: 30%;
 
     h3 {
+      @include flexbox("", flex-end, "");
+      @include margin("", 20px, "", "");
       font-size: 22px;
-      margin-right: 20px;
       animation: slide 15s linear infinite;
       animation-delay: 10s;
     }

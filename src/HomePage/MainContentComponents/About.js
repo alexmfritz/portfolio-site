@@ -1,7 +1,7 @@
 import React from 'react';
 import climbOne from '../images/IMG_4431.JPG';
 import wedding from '../images/wedding.jpg';
-import '../MainContentComponents/About.scss';
+import './styles/About.scss';
 
 export default function About() {
   return (

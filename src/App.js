@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './MainComponents/Header';
-import MainContent from './MainComponents/MainContent';
-import Footer from './MainComponents/Footer';
+import Header from './HomePage/Header';
+import MainContent from './HomePage/MainContent';
+import Footer from './HomePage/Footer';
 
 export default class App extends React.Component {
   state = {
@@ -10,7 +10,6 @@ export default class App extends React.Component {
 
   handleClick = (event) => {
     const { id } = event.target;
-    console.log(id)
     this.setState({ page: id})
   }
 
