@@ -16,7 +16,7 @@ export default class App extends React.Component {
   render = () => {
     return (
       <div>
-        <Header onClick={this.handleClick}/>
+        <Header data={this.state} onClick={this.handleClick}/>
         <MainContent data={this.state}/>
         <Footer />
       </div>

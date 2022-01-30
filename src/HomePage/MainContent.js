@@ -3,27 +3,15 @@ import IntroPage from './MainContentComponents/IntroPage';
 import About from './MainContentComponents/About';
 import Pricing from './MainContentComponents/Pricing';
 import ContactMe from './MainContentComponents/ContactMe';
+import Portfolio from './MainContentComponents/Portfolio';
 
 export default function MainContent(props) {
-  if (props.data.page === 'home') {
-    return (
-      <IntroPage />
-    )
-  } else if (props.data.page === 'about') {
-    return (
-      <About />
-    )
-  } else if (props.data.page === 'pricing') {
-    return (
-      <Pricing />
-    )
-  } else if (props.data.page === 'contact') {
-    return (
-      <ContactMe />
-    )
-  } else if (props.data.page === 'portfolio') {
-    return (
-      <Portfolio />
-    )
+  switch (props.data.page) {
+    case 'home': return ( <IntroPage /> )
+    case 'about': return ( <About /> )
+    case 'pricing': return ( <Pricing /> )
+    case 'contact': return ( <ContactMe /> )
+    case 'portfolio': return ( <Portfolio /> )
+    default: return null;
   }
 }
